@@ -3,7 +3,7 @@
 ## 1. Identificación de Objetos
 
 ### Objeto Principal: Miembro
-- **Justificación:** Una persona inscrita en el gimnasio.
+- **Justificación:** 
 - **Atributos identificados:** Nombre, edad, tipo de mebresía, fecha de inscripción.
 - **Comportamientos:** Entrenar, renovar membresía.
 
@@ -27,8 +27,8 @@
 - **Atributos identificados:** Lugar, entrenador a cargo, instrumentos, horario.
 - **Comportamientos:** Disponer, divertir.
 
-### Objeto Secundario: Entrenad
-- **Justificación:** Persona experta tanto en las máquinas como en ejercicios varios que, dependiendo de lo que se le solicite, instruye con respecto a lo que se desee hacer.
+### Objeto Secundario: Entrenador
+- **Justificación:** 
 - **Relación con objeto principal:** Persona que indica e instrue al miembro para que pueda utilizar las máquinas de manera óptima y también de como realizar ejercicios recomendados según el contexto particular. 
 
 ## 2. Diagrama de Clases (opcional)
