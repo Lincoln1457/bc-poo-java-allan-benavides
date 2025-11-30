@@ -21,5 +21,16 @@ public class Main {
 
     miembro1.setPeso(78.0);
     System.out.println("Nuevo peso: " + miembro1.calcularIMC(1.75));
+
+    Miembro m = new Miembro("Carlos Pérez", 28, 75.5, true, 10);
+    Entrenador e = new Entrenador("Laura Gómez", 6, "Musculación", true);
+
+    m.imprimirInfo();
+    e.imprimirInfo();
+
+    System.out.println("Nivel del entrenador: " + e.nivelEntrenador());
+
+    e.cambiarDisponibilidad(false);
+    System.out.println("Disponibilidad actualizada: " + (e.nivelEntrenador()));
   }
 }
