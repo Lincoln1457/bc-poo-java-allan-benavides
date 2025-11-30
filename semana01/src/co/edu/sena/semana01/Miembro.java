@@ -1,3 +1,5 @@
+package co.edu.sena.semana01;
+
 public class Miembro {
   private String nombreCompleto;
   private int edad;
@@ -29,7 +31,7 @@ public class Miembro {
     return peso / (estaturaMetros * estaturaMetros);
   }
 
-    public String getNombreCompleto() {
+  public String getNombreCompleto() {
     return nombreCompleto;
   }
 

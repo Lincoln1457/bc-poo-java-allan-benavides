@@ -27,7 +27,7 @@
 - **Atributos identificados:** Lugar, entrenador a cargo, instrumentos, horario.
 - **Comportamientos:** Disponer, divertir.
 
-### Objeto Secundario: Entrenador
+### Objeto Secundario: Entrenad
 - **Justificación:** Persona experta tanto en las máquinas como en ejercicios varios que, dependiendo de lo que se le solicite, instruye con respecto a lo que se desee hacer.
 - **Relación con objeto principal:** Persona que indica e instrue al miembro para que pueda utilizar las máquinas de manera óptima y también de como realizar ejercicios recomendados según el contexto particular. 
 

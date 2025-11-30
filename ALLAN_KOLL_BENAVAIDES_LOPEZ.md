@@ -179,7 +179,7 @@ Revisa el archivo `3-recursos/glosario.md` para términos clave de esta semana.
 - **Métodos:** `renewMembership()`, `upgradeSubscription()`, `checkInToGym()`, `isActive()`
 - **Relaciones:** Tiene múltiples `WorkoutSession`, puede tener un `Trainer` asignado
 
-### 2. Trainer (Entrenador)
+### 2. Trainer (Entrenad)
 - **Atributos:** `trainerId`, `name`, `specialty`, `certifications`, `schedule`, `maxClients`, `currentClients`
 - **Métodos:** `assignClient()`, `createWorkoutPlan()`, `updateAvailability()`, `getClientList()`
 - **Herencia:** `extends Employee`
@@ -292,7 +292,7 @@ public class Trainer extends Employee {
     
     @Override
     public String getRole() {
-        return "Entrenador Personal - " + specialty;
+        return "Entrenad Personal - " + specialty;
     }
     
     public void assignClient(Member member) {

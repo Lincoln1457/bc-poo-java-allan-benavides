@@ -1,3 +1,5 @@
+package co.edu.sena.semana01;
+
 public class Entrenador {
   private String nombre;
   private int experienciaAnios;
@@ -12,7 +14,7 @@ public class Entrenador {
   }
 
   public void imprimirInfo() {
-    System.out.println("----- Información del Entrenador -----");
+    System.out.println("~~~~~~ Información del Entrenador ~~~~~~");
     System.out.println("Nombre: " + nombre);
     System.out.println("Años de experiencia: " + experienciaAnios);
     System.out.println("Especialidad: " + especialidad);
