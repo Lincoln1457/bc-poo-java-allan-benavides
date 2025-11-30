@@ -128,12 +128,12 @@ Amplía el ejercicio anterior:
 
 ## 🎓 Criterios de Evaluación
 
-| Criterio | Peso | Descripción |
-|----------|------|-------------|
-| **Identificación de objetos** | 25% | Objetos identificados son relevantes al dominio del gimnasio |
-| **Comprensión conceptual** | 25% | Demuestra entender diferencias entre paradigmas |
-| **Implementación de clase** | 30% | Clase `Member` implementada correctamente con atributos, constructor y método |
-| **Instanciación de objetos** | 20% | Crea múltiples objetos con datos coherentes |
+| Criterio                      | Peso | Descripción                                                                   |
+|-------------------------------|------|-------------------------------------------------------------------------------|
+| **Identificación de objetos** | 25%  | Objetos identificados son relevantes al dominio del gimnasio                  |
+| **Comprensión conceptual**    | 25%  | Demuestra entender diferencias entre paradigmas                               |
+| **Implementación de clase**   | 30%  | Clase `Member` implementada correctamente con atributos, constructor y método |
+| **Instanciación de objetos**  | 20%  | Crea múltiples objetos con datos coherentes                                   |
 
 ---
 
