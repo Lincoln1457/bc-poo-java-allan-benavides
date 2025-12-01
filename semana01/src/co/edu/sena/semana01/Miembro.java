@@ -38,4 +38,8 @@ public class Miembro {
   public void setPeso(double peso) {
     this.peso = peso;
   }
+  public String getNombre() {
+    return nombreCompleto;
+  }
+
 }
