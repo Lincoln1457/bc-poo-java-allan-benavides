@@ -34,8 +34,8 @@ public class Main {
     System.out.println("\nInformación actualizada del entrenador 2:");
     entrenador2.imprimirInfo();
 
-    Rutina rutina1 = new Rutina("Rutina de Fuerza", "Intermedio", 45,entrenador1, miembro1);
-    Rutina rutina2 = new Rutina("Yoga Relajante", "Básico", 30, entrenador2, miembro2);
+    Rutina rutina1 = new Rutina("Rutina de Fuerza", 45, "Intermedio", entrenador1, miembro1);
+    Rutina rutina2 = new Rutina("Yoga Relajante", 30, "Básico", entrenador2, miembro2);
 
     rutina1.mostrarRutina();
     rutina2.mostrarRutina();
