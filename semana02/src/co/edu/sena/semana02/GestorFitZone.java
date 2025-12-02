@@ -64,7 +64,7 @@ public class GestorFitZone {
   }
 
   public void mostrarResumenGeneral() {
-    System.out.println("\n------ RESUMEN COMPLETO FITZONE ------");
+    System.out.println("\n~~~~~~~ RESUMEN COMPLETO FITZONE ~~~~~~~");
     listarMiembros();
     listarEntrenadores();
     listarClasesGrupo();
