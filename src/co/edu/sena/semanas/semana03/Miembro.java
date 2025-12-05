@@ -1,3 +1,5 @@
+package co.edu.sena.semanas.semana03;
+
 public class Miembro {
   private String nombreCompleto;
   private int edad;
@@ -27,7 +29,7 @@ public class Miembro {
   }
 
   public void imprimirInfo() {
-    System.out.println("~~~~ Información del Miembro ~~~~");
+    System.out.println("~~~~ Información del co.edu.sena.semanas.semana03.Miembro ~~~~");
     System.out.println("Nombre: " + nombreCompleto);
     System.out.println("Edad: " + edad);
     System.out.println("Peso: " + peso + " kg");

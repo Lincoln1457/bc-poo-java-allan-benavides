@@ -1,3 +1,5 @@
+package co.edu.sena.semanas.semana03;
+
 public class Entrenador {
   private String nombre;
   private int experienciaAnios;

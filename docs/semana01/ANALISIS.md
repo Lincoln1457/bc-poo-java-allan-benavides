@@ -24,7 +24,7 @@
 - getNombreCompleto(): Retorna el nombre del miembro.
 - setPeso(): Actualiza el peso del miembro.
 
-### Objeto Secundario: Entrenador
+### Objeto Secundario: co.edu.sena.semanas.semana03.Entrenador
 **¿Qué es?:** Persona experta tanto en las máquinas como en ejercicios varios que, dependiendo de lo que se le solicite, instruye con respecto a lo que se desee hacer.
 **Atributos identificados:**
 - nombre: String – Nombre del entrenador.
@@ -40,9 +40,9 @@
 ## 3. Relación entre Objetos
 
 **Tipo de relación:** Asociación (conceptual)
-**Descripción:** El Miembro interactúa con varios entrenadores para recibir asesoría y rutinas especializadas. Aunque en el código no se modeló una relación directa para mantener simpleza, en el dominio real un Miembro podría tener un Entrenador asignado.
+**Descripción:** El co.edu.sena.semanas.semana03.Miembro interactúa con varios entrenadores para recibir asesoría y rutinas especializadas. Aunque en el código no se modeló una relación directa para mantener simpleza, en el dominio real un co.edu.sena.semanas.semana03.Miembro podría tener un co.edu.sena.semanas.semana03.Entrenador asignado.
 
-Ejemplo: "Un Miembro puede recibir entrenamiento por parte de un Entrenador. El entrenador utiliza datos del miembro para planificar la rutina."
+Ejemplo: "Un co.edu.sena.semanas.semana03.Miembro puede recibir entrenamiento por parte de un co.edu.sena.semanas.semana03.Entrenador. El entrenador utiliza datos del miembro para planificar la rutina."
 
 ## 4. Justificación del Diseño
 
@@ -74,7 +74,7 @@ Como todo se basa en objetos de la vida real se pueden crear las clases y los da
 
 ## 6. Diagrama de Clases
     +-------------------------------+    +-------------------------------+
-    |         Miembro               |    |        Entrenador             |
+    |         co.edu.sena.semanas.semana03.Miembro               |    |        co.edu.sena.semanas.semana03.Entrenador             |
     +-------------------------------+    +-------------------------------+
     | - nombreCompleto: String      |    | - nombre: String              |
     | - edad: int                   |    | - experienciaAnios: int       |

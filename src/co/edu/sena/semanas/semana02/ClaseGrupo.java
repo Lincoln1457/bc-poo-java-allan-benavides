@@ -1,4 +1,4 @@
-package co.edu.sena.semana02;
+package co.edu.sena.semanas.semana02;
 
 public class ClaseGrupo {
   private String nombreClase;
@@ -31,7 +31,7 @@ public class ClaseGrupo {
   public void mostrarClase() {
     System.out.println("Clase grupal: " + nombreClase +
         " | Horario: " + horario +
-        " | Entrenador: " + entrenador.getNombre());
+        " | co.edu.sena.semanas.semana03.Entrenador: " + entrenador.getNombre());
 
     if (participante != null) {
       System.out.println("Participante: " + participante.getNombre());

@@ -1,5 +1,5 @@
 # Funcuinamiento del sistema
-Los archivos que se acaban de crear funionan en sincronía con las primeras clases no modificadas(Rutinas) junto con las clases compuestas (ClaseGrupo y GestorFitZone) dentro dek Main.java.
+Los archivos que se acaban de crear funionan en sincronía con las primeras clases no modificadas(Rutinas) junto con las clases compuestas (ClaseGrupo y GestorFitZone) dentro dek co.edu.sena.semanas.semana03.Main.java.
 
 Al igual que en las otras semanas se deben descargar los docuemntos y ponerlos en el mismo poryecto para así mismo ejecutarlo sin inconvenientes.
 

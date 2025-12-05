@@ -43,7 +43,7 @@ Al finalizar esta semana, deberás ser capaz de:
 
 **Ejemplo:**
 ```
-Objeto: Miembro
+Objeto: co.edu.sena.semanas.semana03.Miembro
 - ¿Qué es?: Una persona inscrita en el gimnasio
 - Características: nombre, edad, tipo de membresía, fecha de inscripción
 - Comportamientos: entrenar, renovar membresía, asistir a clases
@@ -68,7 +68,7 @@ Objeto: Miembro
 ### Actividad 3: Primera Clase Simple (Ejercicio 03)
 
 **Instrucciones:**
-Crea tu primera clase en Java llamada `Member` (Miembro) con:
+Crea tu primera clase en Java llamada `Member` (co.edu.sena.semanas.semana03.Miembro) con:
 - **3 atributos** (ej: `name`, `age`, `membershipType`)
 - **1 constructor** que inicialice los atributos
 - **1 método** que muestre la información del miembro
@@ -91,7 +91,7 @@ public class Member {
     
     // Método para mostrar información
     public void showInfo() {
-        System.out.println("Miembro: " + name);
+        System.out.println("co.edu.sena.semanas.semana03.Miembro: " + name);
         System.out.println("Edad: " + age + " años");
         System.out.println("Membresía: " + membershipType);
     }
@@ -99,11 +99,11 @@ public class Member {
 ```
 
 **Instrucciones adicionales:**
-1. Crea una clase `Main` con el método `main`
+1. Crea una clase `co.edu.sena.semanas.semana03.Main` con el método `main`
 2. Instancia **3 objetos diferentes** de tipo `Member`
 3. Llama al método `showInfo()` para cada objeto
 
-**Entregable:** Archivo `Member.java` y `Main.java` funcionando correctamente.
+**Entregable:** Archivo `Member.java` y `co.edu.sena.semanas.semana03.Main.java` funcionando correctamente.
 
 ---
 
@@ -174,7 +174,7 @@ Revisa el archivo `3-recursos/glosario.md` para términos clave de esta semana.
 
 **Nota Importante:** Este es tu dominio personal para todo el bootcamp. Todas las actividades futuras seguirán en el contexto del gimnasio FitZone. No compartas tu código directamente con otros estudiantes, ya que cada uno tiene un dominio diferente.
 
-### 1. Member (Miembro)
+### 1. Member (co.edu.sena.semanas.semana03.Miembro)
 - **Atributos:** `memberId`, `name`, `age`, `phone`, `email`, `membershipType`, `registrationDate`, `expirationDate`, `status`
 - **Métodos:** `renewMembership()`, `upgradeSubscription()`, `checkInToGym()`, `isActive()`
 - **Relaciones:** Tiene múltiples `WorkoutSession`, puede tener un `Trainer` asignado

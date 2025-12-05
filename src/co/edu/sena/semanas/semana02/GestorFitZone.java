@@ -1,4 +1,4 @@
-package co.edu.sena.semana02;
+package co.edu.sena.semanas.semana02;
 
 import java.util.ArrayList;
 
@@ -17,7 +17,7 @@ public class GestorFitZone {
 
   public void agregarMiembro(Miembro m) {
     miembros.add(m);
-    System.out.println("Miembro agregado: " + m.getNombre());
+    System.out.println("co.edu.sena.semanas.semana03.Miembro agregado: " + m.getNombre());
   }
 
   public void listarMiembros() {
@@ -29,7 +29,7 @@ public class GestorFitZone {
 
   public void agregarEntrenador(Entrenador e) {
     entrenadores.add(e);
-    System.out.println("Entrenador agregado: " + e.getNombre());
+    System.out.println("co.edu.sena.semanas.semana03.Entrenador agregado: " + e.getNombre());
   }
 
   public void listarEntrenadores() {

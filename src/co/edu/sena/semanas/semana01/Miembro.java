@@ -1,4 +1,4 @@
-package co.edu.sena.semana01;
+package co.edu.sena.semanas.semana01;
 
 public class Miembro {
   private String nombreCompleto;

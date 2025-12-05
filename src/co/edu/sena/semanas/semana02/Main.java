@@ -1,4 +1,4 @@
-package co.edu.sena.semana02;
+package co.edu.sena.semanas.semana02;
 
 public class Main {
   public static void main(String[] args) {

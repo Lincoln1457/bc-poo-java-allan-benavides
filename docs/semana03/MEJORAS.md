@@ -2,7 +2,7 @@
 
 ## Encapsulación Aplicada
 
-### Clase: Miembro
+### Clase: co.edu.sena.semanas.semana03.Miembro
 - Atributos encapsulados:
   - edad
   - peso
@@ -13,7 +13,7 @@
   - Nivel válido para el gimnacio.
   - Verificadores provados de textod, número y email y email.
 
-### Clase: Entrenador 
+### Clase: co.edu.sena.semanas.semana03.Entrenador 
 - Atributos encapsulados:
   - nombre
   - dispoible
@@ -27,11 +27,11 @@
 
 ## Constructores Sobrecargados
 
-### Clase: Miembro
+### Clase: co.edu.sena.semanas.semana03.Miembro
 - **Constructor 1:** Todos los atributos completos.
 - **Constructor 2:** Solo nombre y edad.
 
-### Clase: Entrenador
+### Clase: co.edu.sena.semanas.semana03.Entrenador
 - **Constructor 1:** Todos los atributos completos.
 - **Constructor 2:** Solo nombre y especialidad.
 

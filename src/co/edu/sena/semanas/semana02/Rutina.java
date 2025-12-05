@@ -1,4 +1,4 @@
-package co.edu.sena.semana02;
+package co.edu.sena.semanas.semana02;
 
 public class Rutina {
 
@@ -37,7 +37,7 @@ public class Rutina {
     System.out.println("Rutina: " + nombre);
     System.out.println("Dificultad: " + nivelDificultad);
     System.out.println("Duración: " + duracionMinutos + " min");
-    System.out.println("Entrenador: " + entrenadorAsignado.getNombre());
+    System.out.println("co.edu.sena.semanas.semana03.Entrenador: " + entrenadorAsignado.getNombre());
     System.out.println("Asignada al miembro: " + miembroAsignado.getNombre());
   }
 }
