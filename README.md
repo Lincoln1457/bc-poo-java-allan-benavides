@@ -11,41 +11,63 @@
 
 ```
 bc.poo-java-allan-benavides/
-└──  semana-01/(Introducción a POO)
-│   ├── docs
+└── docs
+│   └── semana01
 │   │   ├── ANALISIS.md
-│   └── src
-│       └──co.edu.sena.semana01
-│       │  ├── co.edu.sena.semanas.semana03.Entrenador.java
-│       │  ├── co.edu.sena.semanas.semana03.Main.java
-│       │  └── co.edu.sena.semanas.semana03.Miembro.java
-│       └── README.md
-└── semana-02/(Clases y Objetos)
-│   └── src
-│       └──co.edu.sena.semana02
-│       │  ├── ClaseGrupo.java
-│       │  ├── GestorFitZone.java
-│       │  ├── co.edu.sena.semanas.semana03.Main.java
-│       │  └── Rutina.java
-│       └── README.md
-└── semana-03/(Encapsulación y Constructores)
-│   ├── docs
+│   │   └── README.md
+│   └── semana02
+│   │   └── README.md
+│   └── semana03
 │   │   ├── MEJORAS.md
-│   └── src
-│       └──co.edu.sena.semana03
-│       │  ├── co.edu.sena.semanas.semana03.Entrenador.java
-│       │  ├── co.edu.sena.semanas.semana03.Main.java
-│       │  └── co.edu.sena.semanas.semana03.Miembro.java
-└── semana-04/(Herencia)
-
-└── semana-05/(Polimorfismo)
-└── semana-06/(Abstracción)
-└── semana-07/(Paquetes y excepciones)
-└── semana-08/(Arrays, colecciones y Frameworks)
-└── semana-09/(Repaso y cierre)
+│   │   └── README.md
+│   └── semana04
+│   │   ├── JERARQUIA.md
+│   │   └── README.md
+│   └── semana05
+│       ├── POLIMORFISMO.md
+│       └── README.md
+│   └── semana06
+│   └── semana07
+│   └── semana08
+│   └── semana09
+│
+└── src
+│   └── co.edu.sena.semanas
+│       └── semana01/(Introducción a POO)
+│       │   ├── Entrenador.java
+│       │   ├── Main.java
+│       │   └── Miembro.java
+│       └── semana02/(Clases y Objetos)
+│       │   ├── ClaseGrupo.java
+│       │   ├── GestorFitZone.java
+│       │   ├── Main.java
+│       │   └── Rutina.java
+│       └── semana03/(Encapsulación y Constructores)
+│       │   ├── Entrenador.java
+│       │   ├── Main.java
+│       │   └── Miembro.java
+│       └── semana04/(Herencia)
+│       │   ├── Entrenador.java
+│       │   ├── Main.java
+│       │   ├── Miembro.java
+│       │   └── Persona.java
+│       └── semana05/(Polimorfismo)
+│       │   ├── Entrenador.java
+│       │   ├── Main.java
+│       │   ├── Miembro.java
+│       │   └── Persona.java
+│       │   └── ServicioGimnasio.java
+│       └── semana06/(Abstracción)
+│       └── semana07/(Paquetes y excepciones)
+│       └── semana08/(Arrays, colecciones y Frameworks)
+│       └── semana09/(Repaso y cierre)
+│
+├── .gitignore
+├── ALLAN_KOLL_BENAVIDES_LOPEZ.md
+└── README.md
 ```
 
-## 🚀 Cómo Ejecutar
+## 🚀 Cómo ejecutar
 
 ### Semana 01
 ```bash
