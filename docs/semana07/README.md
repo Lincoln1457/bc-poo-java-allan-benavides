@@ -1,6 +1,6 @@
 # Semana 07: Paquetes y Excepciones – FitZone
 
-## 👤 Información del Estudiante
+## Información del estudiante
 - **Nombre**: Allan Koll Benavides Lopez
 - **Ficha**: 3228973B
 - **Dominio**: FitZone – Sistema de Gestión de Gimnasio
@@ -24,7 +24,7 @@ El sistema ahora es más profesional, modular y seguro ante datos inválidos.
 
 ---
 
-## Estructura de Paquetes
+## Estructura de paquetes
 ```
 src/
 └── com/
