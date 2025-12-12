@@ -12,6 +12,9 @@
 ```
 bc.poo-java-allan-benavides/
 └── docs
+│   └── proyecto-final
+│   │   ├── diagrama-clases.png
+│   │   └── README.md
 │   └── semana01
 │   │   ├── ANALISIS.md
 │   │   └── README.md
@@ -27,12 +30,29 @@ bc.poo-java-allan-benavides/
 │       ├── POLIMORFISMO.md
 │       └── README.md
 │   └── semana06
+│       ├── ANALISIS.md
+│       └── README.md
 │   └── semana07
+│       └── README.md
 │   └── semana08
-│   └── semana09
-│
+│       └── README.md
 └── src
 │   └── co.edu.sena.semanas
+│       └── proyecto_final(Repaso y cierre)
+│       │   └── com.fitzone
+│       │       └── excepciones
+│       │       │   ├── ClaseLlenaException.java
+│       │       │   └── MiembroNoEncontrado.java
+│       │       └── modelo
+│       │       │   ├── ClaseGrupo.java
+│       │       │   ├── Entrenador.java
+│       │       │   ├── Miembro.java
+│       │       │   ├── Persona.java
+│       │       │   └── Reserva.java
+│       │       └── servicio
+│       │       │   ├── GimnasioServicio.java
+│       │       │   └── ReporteServicio.java
+│       │       └── Main.java
 │       └── semana01/(Introducción a POO)
 │       │   ├── Entrenador.java
 │       │   ├── Main.java
@@ -55,13 +75,41 @@ bc.poo-java-allan-benavides/
 │       │   ├── Entrenador.java
 │       │   ├── Main.java
 │       │   ├── Miembro.java
-│       │   └── Persona.java
+│       │   ├── Persona.java
 │       │   └── ServicioGimnasio.java
 │       └── semana06/(Abstracción)
+│       │   └── abstractas
+│       │   │   └── Actividad.java
+│       │   └── implementaciones
+│       │   │   ├── ClaseGrupo.java
+│       │   │   └── Rutina.java
+│       │   └── interfaces
+│       │   │   ├── Calificable.java
+│       │   │   └── Reservable.java
+│       │   └── Main.java
 │       └── semana07/(Paquetes y excepciones)
-│       └── semana08/(Arrays, colecciones y Frameworks)
-│       └── semana09/(Repaso y cierre)
-│
+│       │   └── com.fitzone
+│       │       └── excepciones
+│       │       │   ├── ClaseLlenaException.java
+│       │       │   └── MembresiaVencida.java
+│       │       └── modelo
+│       │       │   ├── ClaseGrupo.java
+│       │       │   ├── Entrenador.java
+│       │       │   ├── Miembro.java
+│       │       │   └── Rutina.java
+│       │       └── servicio
+│       │       │   └── GestorFitZone.java
+│       │       └── Main.java
+│       └── semana08/(Colecciones y Generics)
+│           └── com.fitzone
+│               └── modelo
+│               │   ├── ClaseGrupo.java
+│               │   ├── Entrenador.java
+│               │   ├── Miembro.java
+│               │   └── Rutina.java
+│               └── servicio
+│               │   └── GestorFitZone.java
+│               └── Main.java
 ├── .gitignore
 ├── ALLAN_KOLL_BENAVIDES_LOPEZ.md
 └── README.md
